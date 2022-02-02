@@ -12,7 +12,7 @@
 2. TENCENT开头的NAME/REGION(SCF_REGION)/MEMORYSIZE/TIMEOUT依然使用Secrets
 3. PAT依然使用Secrests
 4. TENCENT的SECRET_ID/SECRET_KEY请填入config分支的.env文件.
-5. 其余所有环境变量填入config分支的config.yml格式请照第一行填写(追加在后面,每个一行,英文冒号,注意冒号后方空格.bool值(true/false),请带引号, 如XXXX: 'false').
+5. 其余所有环境变量填入config分支的config.yml格式请照第一行填写(追加在后面,每个一行,英文冒号,注意冒号后方空格.bool值(true/false),请带引号, 如XXXX: 'false').拿不准格式可以百度yaml格式检查,在线检查.
 6. config.yml内变量支持'#'注释,不需要可以直接注释掉保存
 
 ## 云函数部分常用变量说明(默认值见仓库serverless.yml):
