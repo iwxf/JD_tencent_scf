@@ -72,6 +72,8 @@ Message写某个小时(如13,则为13点),就可以现在触发一次那个小�
 2. 启用随机分钟部署(默认开启,在定时的小时随机抽取分钟进行执行).关闭请直接禁用Random Cron workflow
 ### Github部署日志:未找到函数执行入口文件
 云函数面板删除函数,更改函数名字TENCENT_FUNCTION_NAME(Secret)(就是随便换个函数名字),重新运行action部署.
+
+[想不起来Secrets是啥](https://github.com/zero205/JD_tencent_scf/tree/scf2#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E5%88%86%E5%B8%B8%E7%94%A8%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E%E9%BB%98%E8%AE%A4%E5%80%BC%E8%A7%81%E4%BB%93%E5%BA%93serverlessyml)
 ### 仓库存在的文件,云函数报'cannot find the moudle'/函数缺文件,只有几个文件
 现象:在函数面板'函数代码'页面左侧在线IDE的文件列表里,少很多仓库文件
 
