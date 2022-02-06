@@ -15,11 +15,11 @@ jobs:
       - name: clone
         run: |
           git clone --single-branch --branch main https://github.com/zero205/JD_tencent_scf.git
+          mv JD_tencent_scf/backUp/sendNotify.js JD_tencent_scf
       - name: Pre Tasks
         env:
           EXPERIMENT: ${{ secrets.EXPERIMENT }}
         run: |
-          wget -N https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/backUp/sendNotify.js
           for i in 'JRBODY.txt' '.env';do  
               mv $i JD_tencent_scf && echo move $i || echo Not Have $i;
           done
