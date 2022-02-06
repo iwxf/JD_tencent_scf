@@ -5,7 +5,7 @@
 [年包2](https://curl.qcloud.com/ECJ7Mxgy)
 [月包](https://curl.qcloud.com/xcRSXNnU)
 
-如流量用量过多或资源用量过大,请转青龙.之前请务必删除函数和github私库.
+如流量用量过多或资源用量过大,请转青龙.
 
 **不需要使用云函数请在面板删除函数,并删除自己的github私库**
 ## 为了您的数据安全,仓库必须为私有!!!
